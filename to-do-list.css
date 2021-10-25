@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(120deg, #e2c35e, #ec9cec);
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#title{
+  font-size: 80px;
+  font-weight: 500;
+  color: blue;
+}
+
+#input-box {
+  border: 2px solid brown;
+  border-radius: 3px;
+  width: 300px;
+  height: 25px;
+  cursor: pointer;
+}
+
+#enter-btn {
+  border: 2px solid brown;
+  border-radius: 3px;
+  height: 31px;
+  width: 50px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+#enter-btn:hover{
+    background-color: rgb(241, 181, 157);
+    color: white;
+}
+
+.removeAll {
+border-color: brown;
+margin-top: 10px;
+border-radius: 3px;
+height: 31px;
+cursor: pointer;
+}
+
+.removeAll:hover{
+  background-color: rgb(241, 181, 157);
+  color: white;
+}
+
+.input_item {
+ background-color: white;
+ width: 270px;
+ height: 20px;
+ margin-top: 5px;
+ font-size: medium;
+ color: black;
+ margin-left: 10px;
+}
+
+.trash_btn {
+  margin-left: 20px;
+  height: 25px;
+}
